@@ -86,13 +86,20 @@ welcomeUpdateContainer.innerHTML = welcome;
 }
 const fireBtn = document.getElementById("fire");
 fireBtn.addEventListener('click', startFiring);
+
+
+
 const usMessageDiv = document.getElementsByClassName("us-status");
-usMessageDiv.innerHTML;
-const usStatusButton = document.getElementById("us-status");
-usStatusButton.appendChild(usMessageDiv);
+usMessageDiv.textContent = usMessageDiv
+const addDiv = (usMessageDiv)=> {
+     usMessageDiv
+}
 
 
-console.log(usStatusMessage);
-usStatusMessage.addEventListener('click', 
-console.log()
-);
+const usStatusButton = document.querySelector("#us-status-btn");
+console.log(usMessageDiv);
+// usStatusButton.appendChild(usMessageDiv);
+
+
+// console.log(usStatusMessage);
+usStatusButton.addEventListener('click',addDiv)
