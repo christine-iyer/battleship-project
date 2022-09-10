@@ -102,4 +102,5 @@ console.log(usMessageDiv);
 
 
 // console.log(usStatusMessage);
+//hopefully it works
 usStatusButton.addEventListener('click',addDiv)
